@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@notaudible/core": ["packages/core/src"],
+      "@notaudible/ui": ["packages/ui/src"],
+      "@notaudible/player": ["packages/player/src"],
+      "@notaudible/database": ["packages/database/src"],
+      "@notaudible/metadata": ["packages/metadata/src"],
+      "@notaudible/lyrics": ["packages/lyrics/src"],
+      "@notaudible/themes": ["packages/themes/src"]
+    }
+  }
+}

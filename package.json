@@ -1,0 +1,16 @@
+{
+  "name": "notaudible",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel dev",
+    "build": "pnpm --parallel build",
+    "test": "pnpm --parallel test",
+    "lint": "pnpm --parallel lint",
+    "typecheck": "pnpm --parallel typecheck"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.15.0"
+}
